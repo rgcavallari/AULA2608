@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio com Sorteio</title>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="script.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="flex flex-col items-center justify-center h-screen bg-gray-900 text-white">
+    <h1 class="text-3xl font-bold mb-4">Relógio Digital</h1>
+    <div id="clock" class="text-6xl font-mono bg-gray-800 px-8 py-4 rounded-lg shadow-lg"></div>
+    
+    <button onclick="openEmailPrompt()" class="mt-6 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-400">
+        Gerar Número e Enviar por Email
+    </button>
+</body>
+</html>
+
